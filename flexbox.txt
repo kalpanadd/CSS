@@ -75,9 +75,16 @@ flexcontainer properties:
 
 container properties
 ==============================
->>display:flex
-          :inline-flex ----removes extra sapce in container keeps only content size
-          :  
+>>display:flex --traditionally divs stackup top to bottom but in flex layed from left to right, 
+                 also container behaves as blocklevel container occupies 100% width
+          :inline-flex ----container takes enough width to accommodate its children, otherwise extra space in container--
+                            if don't want block level container
+        
+
+display: this property is mandatory without which no other flexproperty will not work
+=======
+>>flex
+>>inline-flex        
 
 
 
