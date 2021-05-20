@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.container{
+    border:6px solid black;
+   /*display: inline-flex;*/
+   display:flex;
+   flex-wrap:wrap;
+
+
+}
+.flex-item {
+    color:black;
+    text-align: center;
+    font-size:2rem;
+    padding: 1rem;
+
+}
+
+.div1{
+    background-color: aquamarine;
+}
+.div2{
+    background-color: bisque;
+}
+.div3{
+    background-color: brown;
+}
+.div4{
+    background-color: burlywood;
+}
+.div5{
+    background-color: chartreuse;
+}
+.div6{
+background-color: cornflowerblue;
+}
+.div7{
+    background-color: crimson;
+}
+.div8{
+    background-color: darkcyan;
+}
+.div9{
+    background-color: darkorange;
+}
+

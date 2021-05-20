@@ -95,6 +95,11 @@ flex-direction: sets the direction of main axis, sets the direction of items in 
 >>column-reverse:items flow from bottom to top
 
 
+flex-wrap:
+=========================================
+nowrap:bydefault value, means if screen width reduces items overflow means will get out of view
+wrap:
+
 
 
 
