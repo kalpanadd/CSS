@@ -151,4 +151,10 @@ align-items:stretch---is default value
             :flex-start
             :flex-end
             :center
-            :baseline
+            :baseline---is baseline is most of the flex items contents sit on baseline
+       
+       by setting
+        flex-direction:column
+align-items:flex-start
+            :flex-end
+            :center
