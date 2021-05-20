@@ -129,12 +129,18 @@ flex-flow:column nowrap
          column-reverse wrap-reverse
 
 
-justify-content:
+justify-content:--- alignment is always along main axis 
+                     defines alignment of items and distributes extra space in containerS
 ===================================
-justify-content:flex-start
+justify-content:flex-start---default value
                :flex-end
                :center
-               :space-between--only space between items not between first and last items
+               :space-between--extra space is onlye between items not between first and last items
                :space-around--will have space before and after first and last items along with inbetween but last spaces is half of between
                :space-evenly--will have equal space between all items including first and last
-               
+here justifycontent deals only with alignment of items along main axis
+
+to alignitems in vetical axis set flex-direction to column and increase height to see extra spacing
+
+
+             
