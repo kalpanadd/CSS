@@ -5,14 +5,13 @@ body{
     border:6px solid black;
    display:flex;
    height: 800px;
-   /*align-items: stretch;*/
-   /*align-items: flex-start;*/
-   /*align-items: flex-end;*/
-   /*align-items: center;*/
-   flex-direction: column;
-   /*align-items: flex-start;*/
-   /*align-items: flex-end;*/
-   align-items: center;
+   flex-wrap: wrap;
+  /* align-content: stretch; it is default value */
+  /*align-content: flex-start;*/
+  /*align-content: flex-end;*/
+  align-content: center;
+
+
 }
 .flex-item {
     color:black;
@@ -27,15 +26,12 @@ body{
 }
 .div2{
     background-color: bisque;
-
 }
 .div3{
     background-color: brown;
-
 }
 .div4{
     background-color: burlywood;
-
 }
 .div5{
     background-color: chartreuse;

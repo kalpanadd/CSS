@@ -158,3 +158,16 @@ align-items:stretch---is default value
 align-items:flex-start
             :flex-end
             :center
+
+
+align-content: align lines of content along the cross axis and distriubute any extra spacing in the paren container
+===========================================================
+aligns lines of content along cross axis
+
+make sure to haev enable wrapping
+flex-wrap:wrap
+-------
+align-content:stretch ---is default value
+              :flex-start
+              :flex-end
+              :center
