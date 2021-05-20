@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.container{
+    border:6px solid black;
+   display:flex;
+   height: 800px;
+   /*align-items: stretch;*/
+   /*align-items: flex-start;*/
+   /*align-items: flex-end;*/
+   /*align-items: center;*/
+   align-items:baseline;
+
+
+}
+.flex-item {
+    color:black;
+    text-align: center;
+    font-size:2rem;
+    padding: 1rem;
+
+}
+
+.div1{
+    background-color: aquamarine;
+    padding: 15px;
+}
+.div2{
+    background-color: bisque;
+    padding: 45px;
+
+}
+.div3{
+    background-color: brown;
+    padding: 55px;
+
+}
+.div4{
+    background-color: burlywood;
+    padding: 95px;
+
+}
+.div5{
+    background-color: chartreuse;
+}
+.div6{
+background-color: cornflowerblue;
+}
+.div7{
+    background-color: crimson;
+}
+.div8{
+    background-color: darkcyan;
+}
+.div9{
+    background-color: darkorange;
+}
+

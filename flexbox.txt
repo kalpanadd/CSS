@@ -143,4 +143,12 @@ here justifycontent deals only with alignment of items along main axis
 to alignitems in vetical axis set flex-direction to column and increase height to see extra spacing
 
 
-             
+
+
+align-tems: it works as justify content but in vertical direction i.e. cross axis
+=============================
+align-items:stretch---is default value
+            :flex-start
+            :flex-end
+            :center
+            :baseline
