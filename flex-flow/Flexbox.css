@@ -12,7 +12,8 @@ body{
    height: 300px;
   /*flex-flow: column nowrap;*/
   /*flex-flow: column wrap;*/
-  flex-flow: column wrap-reverse;
+  /*flex-flow: column wrap-reverse;*/
+  flex-flow: column-reverse wrap-reverse;
 
 }
 .flex-item {
