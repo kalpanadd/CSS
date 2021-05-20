@@ -87,7 +87,12 @@ display: this property is mandatory without which no other flexproperty will not
 >>inline-flex        
 
 
-
+flex-direction: sets the direction of main axis, sets the direction of items in container
+=========================================================================================
+>>row: default value for flex, sets main axis direction from left to right
+>>row-reverse: sets main axis direction from right to left
+>>column: main axis flows from top to bottom
+>>column-reverse:items flow from bottom to top
 
 
 
