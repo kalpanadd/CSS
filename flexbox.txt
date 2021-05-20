@@ -1,0 +1,74 @@
+flexbox--flexible box model--1 dimensional model
+
+>>flexible and efficient layouts
+>>distribute space among items
+>>control their alignment
+
+
+why flexbox:
+============
+>> a lot of flexibility
+>>arrange items
+>>spacing
+>>alignment
+>>order of items
+>>bootstrap 4 is built on top of the flex layouts
+
+
+terminology:
+==============
+like this each flexcontainer will have flex items
+-------------------------
+- -----   ------  ----  -
+- -   -   -     - -   - -      
+- -----   ------   ---  -              
+-                       -
+-                       - 
+-                       -
+-                       -
+-------------------------
+
+<div class='container'>
+
+<div class='item1'></div>
+<div class='item2'></div>
+<div class='item3></div>
+
+</div>
+flexbox axes:
+=============
+main axis: 
+
+main start------------->------------main end
+                main size
+
+
+
+cross axis:
+
+            -cross start
+            -
+            -
+            -
+            -
+            -
+            -cross size
+            -
+            -
+            -
+            -
+            -cross end
+
+bydefault items aligned in main axis
+
+
+flexcontainer properties:
+-----------------------
+>>display--is mandatory 
+>>flex-direction
+>>flex-wrap
+>>flex-flow
+>>justify-content
+>>align-items
+>>align-content
+
