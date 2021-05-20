@@ -113,3 +113,6 @@ flex-wrap:wrap-reverse==it wraps is left side
 
 
 
+flex-flow:short hand property for flex-direction & flex-wrap
+========================================
+flex-flow: 
