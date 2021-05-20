@@ -76,8 +76,8 @@ flexcontainer properties:
 container properties
 ==============================
 >>display:flex
-          :
-
+          :inline-flex ----removes extra sapce in container keeps only content size
+          :  
 
 
 

@@ -3,7 +3,10 @@ body{
 }
 .container{
     border:6px solid black;
-    display:flex;
+   /*display:flex;*/
+   display: inline-flex;
+
+
 }
 .flex-item {
     color:black;
