@@ -127,3 +127,14 @@ flex-flow:column nowrap
          column-reverse nowrap
          column-reverse wrap
          column-reverse wrap-reverse
+
+
+justify-content:
+===================================
+justify-content:flex-start
+               :flex-end
+               :center
+               :space-between--only space between items not between first and last items
+               :space-around--will have space before and after first and last items along with inbetween but last spaces is half of between
+               :space-evenly--will have equal space between all items including first and last
+               

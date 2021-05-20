@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.container{
+    border:6px solid black;
+    display:flex;
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+   /* justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+
+
+
+}
+.flex-item {
+    color:black;
+    text-align: center;
+    font-size:2rem;
+    padding: 1rem;
+
+}
+
+.div1{
+    background-color: aquamarine;
+}
+.div2{
+    background-color: bisque;
+}
+.div3{
+    background-color: brown;
+}
+.div4{
+    background-color: burlywood;
+}
+.div5{
+    background-color: chartreuse;
+}
+.div6{
+background-color: cornflowerblue;
+}
+.div7{
+    background-color: crimson;
+}
+.div8{
+    background-color: darkcyan;
+}
+.div9{
+    background-color: darkorange;
+}
+
