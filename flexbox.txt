@@ -89,18 +89,27 @@ display: this property is mandatory without which no other flexproperty will not
 
 flex-direction: sets the direction of main axis, sets the direction of items in container
 =========================================================================================
->>row: default value for flex, sets main axis direction from left to right
->>row-reverse: sets main axis direction from right to left
->>column: main axis flows from top to bottom
->>column-reverse:items flow from bottom to top
+>>row:-- default value for flex, sets main axis direction from left to right
+>>row-reverse:-- sets main axis direction from right to left
+>>column:-- main axis flows from top to bottom
+>>column-reverse:--items flow from bottom to top
 
 
-flex-wrap:
+flex-wrap:by default all flex items in container try to fit into single line, if there is not enough space items overflow
 =========================================
-nowrap:bydefault value, means if screen width reduces items overflow means will get out of view
-wrap:if we reduce broweser window size the items get wrapped below
-wrap-reverse:items get wrapped above
+nowrap:---bydefault value, means if screen width reduces items overflow means will get out of view
+wrap:----if we reduce broweser window size the items get wrapped below
+wrap-reverse:---items get wrapped above
 
+to wrap in vertical direction:
+---------------------------------------------
+first to wrap the items container couldn't accommodate it's children such to make browser  screen size reduced manually, but in vertical direction reduce the
+container height so that it will not accommodate it's children hence wraps;
+
+flex-direction:column;
+height:400px or any height i took here this height
+flex-wrap:wrap=== it wraps in right side
+flex-wrap:wrap-reverse==it wraps is left side
 
 
 

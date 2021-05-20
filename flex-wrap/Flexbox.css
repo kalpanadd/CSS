@@ -3,10 +3,17 @@ body{
 }
 .container{
     border:6px solid black;
-   /*display: inline-flex;*/
    display:flex;
+   /*flex-wrap: nowrap;*/ 
    /*flex-wrap:wrap;*/
-   flex-wrap: wrap-reverse;
+   /*flex-wrap: wrap-reverse;*/
+   flex-direction: column;
+   height: 400px;
+  /* flex-wrap: nowrap;*/
+  /*flex-wrap: wrap;*/
+  flex-wrap: wrap-reverse;
+
+
 
 
 }
