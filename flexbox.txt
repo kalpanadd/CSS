@@ -98,7 +98,8 @@ flex-direction: sets the direction of main axis, sets the direction of items in 
 flex-wrap:
 =========================================
 nowrap:bydefault value, means if screen width reduces items overflow means will get out of view
-wrap:
+wrap:if we reduce broweser window size the items get wrapped below
+wrap-reverse:items get wrapped above
 
 
 
