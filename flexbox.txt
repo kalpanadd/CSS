@@ -72,3 +72,17 @@ flexcontainer properties:
 >>align-items
 >>align-content
 
+
+container properties
+==============================
+>>display:flex
+          :
+
+
+
+
+
+
+
+
+

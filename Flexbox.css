@@ -3,8 +3,7 @@ body{
 }
 .container{
     border:6px solid black;
-
-
+    display:flex;
 }
 .flex-item {
     color:black;
