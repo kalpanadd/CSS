@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.progress{
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+}
+.html_div{
+    display: flex;
+    margin: 15px;
+    box-shadow: 5px 5px 15px;
+    
+}
+.html_p{
+    width: 100%;
+    background-color: grey;
+}
+.html{
+    width: 90%;
+    background-color: green;
+    text-align: end;
+}
+.css_p{
+    width: 100%;
+    background-color: grey;
+}
+.css{
+    width: 80%;
+    background-color: #17c1e7;
+    text-align: end;
+}
+.js_p{
+    width: 100%;
+    background-color: grey;
+}
+.js{
+    width: 65%;
+    background-color: rgb(221, 13, 31,0.8);
+    text-align: end;
+}
+.php_p{
+    width: 100%;
+    background-color: grey;
+}
+.php{
+    width: 60%;
+    background-color:rgb(164, 164, 49);
+    text-align: end;
+
+}
