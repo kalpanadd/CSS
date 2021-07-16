@@ -106,15 +106,6 @@ hr{
     border: 1px solid whitesmoke;
     margin-bottom: 25px;
 }
-
-#right_section{
-display: flex;
-flex: 0.6;
-background-color: black;
-color: white;
-flex-direction: row;
-
-}
 footer{
 display: flex;
 flex-direction: column;
@@ -127,3 +118,35 @@ align-items:center;
     text-decoration: underline;
     font-size:smaller;
 }
+#right_section{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-image: url(./images/right_Section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0.6;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+}
+
+.right p{
+    font-size: xx-large;
+    font-weight:bolder;
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.right button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(231, 79, 104);
+    margin-left: 150px;
+    font-size:medium;
+} 
+
