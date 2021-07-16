@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-family: 'Noticia Text', serif;
+}
+
+.left_section{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    background-color:rgba(0, 0, 0, 0.95);
+    color:white;
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 15px;
+    font-size:xx-large;
+}
+.title img{
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:medium;   
+
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.labels input{
+background-color: rgb(25, 25, 23);
+border: 1px solid whitesmoke;
+padding: 10px 85px;
+border-radius: 2px;
+
+}
+#signin_btn{
+    background-color: rgb(62, 62, 186);
+    border: none;
+    width:fit-content;
+    margin: 0px auto;
+    padding: 10px 145px;
+    border-radius: 2px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+
+}
+
+#forgot_pw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+#forgot_pw span{
+    margin: 1px;
+    color: rgb(66, 73, 220);
+    font-size: 20px;
+}
+#create-btn{
+    background-color:rgba(0, 0, 0, 0.4);
+    border: none;
+    width:fit-content;
+    margin: 0px auto;
+    padding: 10px 105px;
+    border-radius: 2px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    font-size: medium;
+}
+
+hr{
+    color: whitesmoke;
+    width: 320px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 25px;
+}
+
+#right_section{
+display: flex;
+flex: 0.6;
+background-color: black;
+color: white;
+flex-direction: row;
+
+}
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+}
+
+#underline{
+    margin: 0px;
+    text-decoration: underline;
+    font-size:smaller;
+}
