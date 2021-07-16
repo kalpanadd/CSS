@@ -9,7 +9,6 @@ body{
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
     font-family: 'Noticia Text', serif;
 }
 
@@ -150,3 +149,14 @@ align-items:center;
     font-size:medium;
 } 
 
+@media only screen and (max-width:675px){
+    .left_section{
+        flex: 6;
+    }
+    #right_section{
+        flex: 4;
+    }
+    #right_section{
+        background-size: cover;
+    }
+}
