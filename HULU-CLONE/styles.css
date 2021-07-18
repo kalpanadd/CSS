@@ -222,4 +222,104 @@ font-size: xx-large;
     padding-top: 10px;
     font-size: xx-small;
 }
+.space{
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+}
 
+.livetv{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    padding: 5rem;
+    box-shadow: 10px 10px 10px;   
+}
+.livetv_innerdiv{
+height: 80vh;
+width: 90vw;
+border: 5px solid rgb(115, 213, 115);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+}
+
+.p1{
+    padding-bottom: 3rem;
+    color:rgb(115, 213, 115);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.livetv_h1{
+    font-size:70px;
+    font-weight:700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+.livetv_p{
+    font-size:1.5rem;
+    padding-bottom: 5px;
+}
+.livetv_span{
+    font-size: x-small;
+    padding: 1rem;
+}
+.livesports{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/live-sports.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: white;
+}
+
+.livesports h1{
+    font-size:xx-large;
+    padding: 2rem;
+}
+
+.livesports p{
+    padding: 5px;
+    font-size:x-large;   
+}
+.livesports_innerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 5rem;
+}
+.sports_logos{
+    width: 30vw;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.footer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.line{
+width: 1300px;
+margin-left: 10rem;
+margin-top: 5rem;
+}
+.social{
+    display: flex;
+    width: 10vw;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+}
+.browse, .TVShows,.huludisney,.help,.aboutus{
+    margin-top: 5rem;
+}
