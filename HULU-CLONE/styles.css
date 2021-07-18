@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.link{
+    text-decoration: underline;
+}
+
+.header{
+    background-image: url(./images/header.jpg);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 11vh;
+    background-image: linear-gradient(rgba(22, 21, 21, 0.9),rgba(22, 21, 21, 0.5),rgba(22, 21, 21, 0.1));
+    z-index: 1;
+}
+.navbar_hulu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    
+}
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.header_content h5{
+    padding: 1.5rem;
+    color:rgb(115, 213, 115) ;
+}
+.header_content img{
+    width:16rem;
+    padding-bottom: 1.5rem;
+}
+
+.header_content h3{
+padding-bottom: 1.8rem;
+}
+
+.header_content p{
+    padding-bottom: 2rem;
+}
+
+.header_content button{
+    padding:1.2rem 2rem;
+    border: none;
+    font-weight:700;
+    letter-spacing: 1px;
+    border-radius: 3px;
+
+}
+.legal_text{
+    padding: 1.5rem;
+    font-size:x-small;
+}
+.subheader{
+    height: 20vh;
+    background-color:#1f4040;
+    padding: 1.5rem 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-wrap: wrap;
+
+}
+.subheader_img{
+    flex:0.3;
+}
+.subheader img{
+width: 350px;
+}
+.subheader_Content{
+    flex: 0.5;
+}
+.h5{
+    color:rgb(115, 213, 115) ;
+    padding-bottom:1rem;
+
+}
+.content{
+    font-size:x-large;
+    margin-bottom: 1rem;
+}
+.subheader_btn{
+    flex:0.2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.subheader_btn button{
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: none;
+}
+.link2{
+    text-decoration: underline;
+    font-size:x-small;
+}
+
+.subheader::after{
+    content:'';
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    height: 20vh;
+    width: 100vw;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.102),rgba(0, 0, 0, 0.89));
+}
+
+.tv{
+    height: 110vh;
+    width: 100vw;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tv_content{
+height: 30vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+margin-top: 5rem;
+}
+
+.tv_content_p{
+    color:rgb(115, 213, 115);
+    font-weight: bold;
+}
+.tv_content_h1{
+    font-size:70px;
+    font-weight:700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+.tv_content_h3{
+    margin-bottom: 1rem;
+}
+.tv_posts{
+    color: white;
+    margin-top: 5rem;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+}
+.post1{
+    background-image: url(./images/cover-1.jpg);
+    width: 290px;
+    background-position: center;
+
+}
+
+.post2{
+    width: 290px;
+    background-image: url(./images/cover-2.jpg);
+    background-position: center;
+
+}
+.post3{
+    width: 290px;
+    background-image: url(./images/cover-3.jpg);
+    background-position: center;
+
+}
+.post4{
+    width: 290px;
+    background-image: url(./images/cover-4.jpg);
+    background-position: center;
+}
+.tv_posts div p{
+    padding: 0.1rem 1rem;
+    margin-top: 1rem;
+    font-size: medium;
+}
+
+.tv_posts div h3{
+padding:1rem;
+font-size: xx-large;
+}
+
+.last{
+    height:5vh;
+    width: 100vw;
+    margin-left: 78vw;
+    padding-top: 10px;
+    font-size: xx-small;
+}
+
