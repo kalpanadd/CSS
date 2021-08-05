@@ -112,6 +112,7 @@ footer{
     color: rgb(61, 59, 59,0.8);
     font-size:small;
     font-weight: normal;
+    letter-spacing: 1px;
 }
 .header_content_right{
     flex: 0.4;
@@ -120,9 +121,3 @@ footer{
     align-items: flex-end;
 }
 
-.header_content_right >div>img ::after{
-    height: 50px;
-    width: 100%;
-    box-shadow: 30px 30px 30px black;
-
-}
