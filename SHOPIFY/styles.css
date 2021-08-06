@@ -191,3 +191,11 @@ margin-bottom: 1rem;
     justify-content:space-evenly;
     margin-top: 7rem;
 }
+.market_business{
+    width: 100vw;
+    height: 90vh;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+
+}
