@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 }
 .header_section{
     height: 85vh;
@@ -122,13 +125,13 @@ footer{
 }
 .business_online{
     width: 100vw;
-    height: 100vh;
+    height: 170vh;
     background-color: rgb(9, 78, 76);
     display: flex;
     flex-direction: column;
 }
 .business_container{
-    margin: 4rem;
+    margin: 5rem;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -141,5 +144,50 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
-    
+    font-family: 'Roboto', sans-serif;
+
+}
+.up{
+    margin-top: 10px;
+}
+.best_path{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.with_you{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.with_you_container{
+margin: 8rem;
+
+}
+.with_you_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.with_you_header > h1{
+color: rgb(17, 16, 16); 
+letter-spacing: 2px;
+margin-bottom: 1rem;   
+
+}
+.with_you_header > p{
+    margin-bottom: 5px;
+}
+.with_you_videodiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 7rem;
 }
